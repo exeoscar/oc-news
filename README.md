@@ -1,14 +1,17 @@
-# oc-news
-# News AI Chatbot
+# NEWS AI Chatbot
 
-This is a chatbot that provides news updates based on user preferences.
+This project is an interactive chatbot for searching and summarizing news articles from the BBC RSS feed based on user-provided keywords.
 
-## Installation
+## Setup
 
-1. Clone this repository.
-2. Install the required packages using ```pip install -r requirements.txt```.
-3. Run the application using ```python app.py```.
+1. Clone this repository
 
-## Usage
+2. Install dependencies
+```pip install -r requirements.txt```
 
-Open your web browser and navigate to `http://localhost:5000`. Enter your news preferences and the chatbot will provide relevant news articles.
+3. Run the Streamlit app
+```python -m streamlit run main.py```
+
+## Version 1.0.0
+1. it's only allow to find news on BBC as testing point. Please go to http://feeds.bbci.co.uk/news/world/rss.xml to find the news keywords to use.
+2. this is a beta version, the LLM & NLP for understanding user input is not complete.

@@ -1,4 +1,6 @@
-flask
-transformers
-tensorflow
+streamlit
 feedparser
+beautifulsoup4
+requests
+transformers
+torch
