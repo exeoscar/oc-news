@@ -7,10 +7,14 @@ This project is an interactive chatbot to understand user input and for searchin
 1. Clone this repository
 
 2. Install dependencies
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
-3. Run the Streamlit app
-```python -m streamlit run main.py```
+4. Run the Streamlit app
+```
+python -m streamlit run main.py
+```
 
 ## Version 1.0.0
 1. it's only allow to find news on BBC as testing point. Please go to http://feeds.bbci.co.uk/news/world/rss.xml to find the news keywords to use.
