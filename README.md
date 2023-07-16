@@ -1,6 +1,6 @@
 # NEWS AI Chatbot
 
-This project is an interactive chatbot for searching and summarizing news articles from the BBC RSS feed based on user-provided keywords.
+This project is an interactive chatbot to understand user input and for searching and summarizing news articles from the News feed based on user-provided information.
 
 ## Setup
 
